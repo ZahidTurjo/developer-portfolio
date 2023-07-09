@@ -89,12 +89,14 @@ main{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 .section-discription{
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     color: grey;
+    margin-top: 5px;
 }
 .about-info-container{
     display:flex;
@@ -143,8 +145,31 @@ footer{
 background-color:#FFF8F3;
 
 }
+
+.social-link{
+    margin: 0px 20px;
+     
+}
 .footer-container{
     padding:130px 80px;
     display: flex;
     justify-content: space-around;
+    gap: 100px;
+}
+.footer-colum{
+     width: 50%;  
+}
+.contact, input,textarea{
+    display:block;
+    /* text-align: center; */
+    margin-bottom: 24px;
+    padding:18px 35px;
+    font-size: 20px;
+    border: none;
+    color: grey;
+    border-radius: 5px;
+
+}
+.contact input[type="text"] ,.contact input[type="email"] {
+    width: 100%;
 }
