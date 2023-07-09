@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin:0 200px ;
+    padding: 20px 0px;
     
 }
 .nav-tittle{
@@ -79,6 +80,11 @@ background-position: bottom right;
 background: #FFF8F3;
 margin: 130px 0;
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .section-title{
     text-align: center;
     font-size: 35px;
@@ -89,4 +95,42 @@ margin: 130px 0;
     font-weight: 400;
     text-align: center;
     color: grey;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+.info-description{
+    margin-top:7px;
+}
+#turjo{
+    margin:30px 150px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.skill{
+    padding: 30px;
+    gap:44px;
+    box-shadow: 4px 4px 7px grey;
+    /* width: 150px; */
+    /* height: 231px; */
+    margin-bottom: 100px;
+}
+.resume-container{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.resume-colum-title{
+    margin-bottom: 20px;
+
 }
