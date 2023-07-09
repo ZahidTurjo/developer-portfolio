@@ -138,3 +138,13 @@ main{
     text-align: center;
     margin:20px;
 }
+footer{
+ 
+background-color:#FFF8F3;
+
+}
+.footer-container{
+    padding:130px 80px;
+    display: flex;
+    justify-content: space-around;
+}
